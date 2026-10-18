@@ -1,0 +1,10 @@
+# Dependencias verificadas con Python 3.13.5 y PyTorch 2.10.0+cpu.
+# Para CUDA/MPS, instalar primero la variante apropiada de torch usando el
+# selector oficial https://pytorch.org/get-started/locally/ y luego instalar
+# las demás dependencias.
+torch>=2.3,<3.0
+numpy>=1.26,<3.0
+scikit-learn>=1.5,<2.0
+matplotlib>=3.8,<4.0
+joblib>=1.3,<2.0
+pytest>=8.0,<10.0

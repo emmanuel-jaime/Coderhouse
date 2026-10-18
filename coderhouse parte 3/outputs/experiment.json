@@ -1,0 +1,38 @@
+{
+  "framework": "PyTorch",
+  "torch_version": "2.10.0+cpu",
+  "python_version": "3.13.5",
+  "device": "cpu",
+  "dataset": "Iris (sklearn.datasets.load_iris)",
+  "model": "MLP: Linear(4,16) -> ReLU -> Linear(16,3)",
+  "optimizer": "Adam",
+  "loss_function": "CrossEntropyLoss",
+  "epochs": 50,
+  "learning_rate": 0.001,
+  "batch_size": 16,
+  "seed": 42,
+  "split": {
+    "train": 105,
+    "val": 22,
+    "test": 23
+  },
+  "best_epoch": 50,
+  "best_val_loss": 0.34724880213087256,
+  "test_loss": 0.3643391832061436,
+  "test_accuracy": 0.8260869565217391,
+  "first_train_loss": 1.0362749559538704,
+  "last_train_loss": 0.25962295957974024,
+  "first_val_loss": 1.0333532636815852,
+  "last_val_loss": 0.34724880213087256,
+  "features": [
+    "sepal length (cm)",
+    "sepal width (cm)",
+    "petal length (cm)",
+    "petal width (cm)"
+  ],
+  "classes": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ]
+}
