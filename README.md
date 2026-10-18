@@ -7,8 +7,11 @@ Pipeline de entrenamiento, validación y clasificador base.
 [Ver código y documentación](./coderhouse%20parte%203/README.md)
 
 ### Ejecución
-Desde la carpeta `coderhouse parte 3`:
 
+Desde la carpeta `coderhouse parte 3`, ejecutar:
+
+```bash
 pip install -r requirements.txt
 python main.py
 python -m pytest -q
+```
