@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos generados
+outputs/
+*.log
+
+# Datasets locales
+**/data/*.csv
+
+# Configuración local
+.env
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
