@@ -27,3 +27,14 @@ Análisis del corpus AG News con Python, SpaCy y scikit-learn.
 
 ### Proyecto completo
 [Ver código, pruebas e informe](./modulo-2-eda-nlp/README.md)
+
+## Pre-entrega 3 — Clasificador supervisado TF-IDF
+
+Clasificación de noticias AG News mediante TF-IDF y Regresión Logística.
+
+- Accuracy: 88,95 %.
+- F1 macro: 0,8896.
+- 8 pruebas automatizadas aprobadas.
+- Evaluación mediante matriz de confusión.
+
+[Ver proyecto completo](./modulo-3-clasificador-tfidf/README.md)
