@@ -1,0 +1,4 @@
+configuracion,max_features,ngram_range,vocabulario_real,f1_macro_validacion,accuracy_validacion
+A_unigramas_5000,5000,"(1, 1)",5000,0.887785,0.888125
+B_uni_bigramas_10000,10000,"(1, 2)",10000,0.891031,0.89125
+C_uni_bigramas_20000,20000,"(1, 2)",19944,0.889652,0.89
