@@ -1,11 +1,17 @@
-# Evidencia del clasificador
+# Resultados del clasificador TF-IDF
 
-La imagen `ejemplo_matriz_PRELIMINAR_fallback.png` proviene de una **evaluación real de referencia sin lematización** y no debe confundirse con los resultados oficiales.
+Evaluación final con SpaCy y Regresión Logística.
 
-Para la entrega final, ejecutar:
+- Accuracy: 88,95 %.
+- F1 macro: 0,8896.
+- Mejor categoría: Sports.
+- Categoría más difícil: Business.
+- Pruebas automatizadas: 8 aprobadas.
 
-```powershell
-python main.py --mode spacy --export-docs
-```
+## Archivos
+- `matriz_confusion.png`: matriz de confusión.
+- `classification_report.txt`: métricas por clase.
+- `comparacion_validacion.csv`: experimentos TF-IDF.
+- `analisis.md`: interpretación de resultados.
 
-El script generará en esta carpeta `matriz_confusion.png`, `classification_report.txt`, `comparacion_validacion.csv` y `analisis.md`, con resultados finales usando el modelo oficial `en_core_web_sm`. Después de revisar esos resultados, se puede retirar el ejemplo preliminar.
+Resultados obtenidos con AG News y en_core_web_sm.
