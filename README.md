@@ -15,3 +15,15 @@ pip install -r requirements.txt
 python main.py
 python -m pytest -q
 ```
+
+## Pre-entrega 2 — Preprocesamiento y EDA de NLP
+
+Análisis del corpus AG News con Python, SpaCy y scikit-learn.
+
+- Limpieza, tokenización y lematización.
+- Análisis de frecuencias, N-gramas y longitudes.
+- Visualización de las cuatro categorías.
+- Informe técnico PDF y pruebas automatizadas.
+
+### Proyecto completo
+[Ver código, pruebas e informe](./modulo-2-eda-nlp/README.md)
